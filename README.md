@@ -2,6 +2,12 @@
 
 一个温暖、复古、可自由拼贴的电子手账 Demo。项目使用 React、TypeScript、Vite、Tailwind CSS、Zustand、Konva、Lucide 和 IndexedDB 实现。
 
+## 在线体验
+
+公开网址：https://zaozaozao-wjy.github.io/time-diary/
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages。
+
 ## 启动
 
 ```powershell
@@ -64,6 +70,7 @@ node scripts/browser-test.mjs
 ## 数据与限制
 
 - 所有日记与上传图片均只保存在当前浏览器的 IndexedDB，不上传服务器。
+- 不同设备或不同浏览器之间不会自动同步日记。
 - 天气与心情为手动标签，不接入真实天气 API。
 - 示例日记会在本地首次打开且数据库为空时生成，并正常持久化。
 - 第一版为单页日记编辑器，双页阅读由相邻日记组合呈现。
