@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+.pages-smoke/
+test-output/
+.chrome-test-profile/
+.chrome-*/
+.tools/
+dev-server.log
+dev-server-error.log
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
